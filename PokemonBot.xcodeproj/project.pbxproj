@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065392301D432C39003AA198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0653922F1D432C39003AA198 /* Assets.xcassets */; };
+		0653923B1D432D7D003AA198 /* PokemonBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653923A1D432D7D003AA198 /* PokemonBot.swift */; };
+		0653923D1D432F94003AA198 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653923C1D432F94003AA198 /* main.swift */; };
+		0653923F1D4339FA003AA198 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653923E1D4339FA003AA198 /* Pokemon.swift */; };
+		065392411D433A3E003AA198 /* PokemonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065392401D433A3E003AA198 /* PokemonFactory.swift */; };
+		065392431D433EA4003AA198 /* PokemonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 065392421D433EA4003AA198 /* PokemonList.plist */; };
+		065392451D4342B5003AA198 /* PokemonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065392441D4342B5003AA198 /* PokemonMapper.swift */; };
+		5473F22D34BB136B6EBC32DA /* Pods_PokemonBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2683CC3FF671190C9E276E0 /* Pods_PokemonBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0653922A1D432C39003AA198 /* PokemonBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0653922F1D432C39003AA198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065392341D432C39003AA198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0653923A1D432D7D003AA198 /* PokemonBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonBot.swift; sourceTree = "<group>"; };
+		0653923C1D432F94003AA198 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0653923E1D4339FA003AA198 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		065392401D433A3E003AA198 /* PokemonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonFactory.swift; sourceTree = "<group>"; };
+		065392421D433EA4003AA198 /* PokemonList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PokemonList.plist; sourceTree = "<group>"; };
+		065392441D4342B5003AA198 /* PokemonMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonMapper.swift; sourceTree = "<group>"; };
+		A2683CC3FF671190C9E276E0 /* Pods_PokemonBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A4C3EF386F5E3A5EC74A84 /* Pods-PokemonBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonBot/Pods-PokemonBot.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B63A60193BDF99E9B1C7BE /* Pods-PokemonBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonBot/Pods-PokemonBot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065392271D432C39003AA198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5473F22D34BB136B6EBC32DA /* Pods_PokemonBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065392211D432C39003AA198 = {
+			isa = PBXGroup;
+			children = (
+				0653922C1D432C39003AA198 /* PokemonBot */,
+				0653922B1D432C39003AA198 /* Products */,
+				64112FDDEDA4660FC1451507 /* Pods */,
+				EB1A9529E8286984DCFC32A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0653922B1D432C39003AA198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0653922A1D432C39003AA198 /* PokemonBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0653922C1D432C39003AA198 /* PokemonBot */ = {
+			isa = PBXGroup;
+			children = (
+				0653923C1D432F94003AA198 /* main.swift */,
+				0653923A1D432D7D003AA198 /* PokemonBot.swift */,
+				065392401D433A3E003AA198 /* PokemonFactory.swift */,
+				0653923E1D4339FA003AA198 /* Pokemon.swift */,
+				065392441D4342B5003AA198 /* PokemonMapper.swift */,
+				065392421D433EA4003AA198 /* PokemonList.plist */,
+				0653922F1D432C39003AA198 /* Assets.xcassets */,
+				065392341D432C39003AA198 /* Info.plist */,
+			);
+			path = PokemonBot;
+			sourceTree = "<group>";
+		};
+		64112FDDEDA4660FC1451507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4C3EF386F5E3A5EC74A84 /* Pods-PokemonBot.debug.xcconfig */,
+				C2B63A60193BDF99E9B1C7BE /* Pods-PokemonBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB1A9529E8286984DCFC32A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2683CC3FF671190C9E276E0 /* Pods_PokemonBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065392291D432C39003AA198 /* PokemonBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065392371D432C39003AA198 /* Build configuration list for PBXNativeTarget "PokemonBot" */;
+			buildPhases = (
+				32901F4F3222390DC854C9BC /* [CP] Check Pods Manifest.lock */,
+				065392261D432C39003AA198 /* Sources */,
+				065392271D432C39003AA198 /* Frameworks */,
+				065392281D432C39003AA198 /* Resources */,
+				4321E521FC32EE0799EF9CA2 /* [CP] Embed Pods Frameworks */,
+				2E705857FC7504AB698BA420 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonBot;
+			productName = PokemonBot;
+			productReference = 0653922A1D432C39003AA198 /* PokemonBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065392221D432C39003AA198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Artem Novichkov";
+				TargetAttributes = {
+					065392291D432C39003AA198 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 065392251D432C39003AA198 /* Build configuration list for PBXProject "PokemonBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065392211D432C39003AA198;
+			productRefGroup = 0653922B1D432C39003AA198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065392291D432C39003AA198 /* PokemonBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065392281D432C39003AA198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065392431D433EA4003AA198 /* PokemonList.plist in Resources */,
+				065392301D432C39003AA198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E705857FC7504AB698BA420 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonBot/Pods-PokemonBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32901F4F3222390DC854C9BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4321E521FC32EE0799EF9CA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonBot/Pods-PokemonBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065392261D432C39003AA198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065392411D433A3E003AA198 /* PokemonFactory.swift in Sources */,
+				0653923D1D432F94003AA198 /* main.swift in Sources */,
+				0653923B1D432D7D003AA198 /* PokemonBot.swift in Sources */,
+				065392451D4342B5003AA198 /* PokemonMapper.swift in Sources */,
+				0653923F1D4339FA003AA198 /* Pokemon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		065392351D432C39003AA198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065392361D432C39003AA198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		065392381D432C39003AA198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A4C3EF386F5E3A5EC74A84 /* Pods-PokemonBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.PokemonBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		065392391D432C39003AA198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B63A60193BDF99E9B1C7BE /* Pods-PokemonBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.PokemonBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065392251D432C39003AA198 /* Build configuration list for PBXProject "PokemonBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065392351D432C39003AA198 /* Debug */,
+				065392361D432C39003AA198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065392371D432C39003AA198 /* Build configuration list for PBXNativeTarget "PokemonBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065392381D432C39003AA198 /* Debug */,
+				065392391D432C39003AA198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065392221D432C39003AA198 /* Project object */;
+}

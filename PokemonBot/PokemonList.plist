@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>Bulbasaur</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f3/1.jpg/100px-1.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Ivysaur</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/15/2.jpg/100px-2.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Venasaur</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/79/3.jpg/100px-3.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Charmander</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d0/4.jpg/100px-4.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Charmeleon</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/03/5.jpg/100px-5.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Charizard</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/18/6.jpg/100px-6.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Squirtle</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/fe/7.jpg/100px-7.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Wartortle</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/8c/8.jpg/100px-8.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Blastoise</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/30/9.jpg/100px-9.jpg</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Caterpie</string>
+		<key>imageLink</key>
+		<string>http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/ae/10.jpg/100px-10.jpg</string>
+	</dict>
+</array>
+</plist>
